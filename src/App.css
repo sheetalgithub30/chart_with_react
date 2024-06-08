@@ -1,26 +1,26 @@
-#app{
+#app {
   background-color: blanchedalmond;
   height: 100vh;
 }
-#app #navbar{
+#app #navbar {
   padding: 1.3rem;
   background-color: rgb(6, 125, 205);
   color: white;
 }
-#app #navbar h2{
+#app #navbar h2 {
   margin-left: 2rem;
 }
-#app #container{
+#app #container {
   margin: 0.5rem;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-#container #progress{
+#container #progress {
   width: 45rem;
   height: 85vh;
 }
-#container #chart{
+#container #chart {
   width: 45rem;
   display: flex;
   flex-direction: column;
@@ -28,41 +28,40 @@
   justify-content: center;
   height: 85vh;
 }
-#container #chart #inner-chart{
+#container #chart #inner-chart {
   width: 60%;
   margin: 2rem;
   padding: 2rem;
- }
+}
 
- #inner-chart p{
-   font-size: 2rem;
-   margin: 2rem 0rem;
- }
+#inner-chart p {
+  font-size: 2rem;
+  margin: 2rem 0rem;
+}
 
- .price{
+.price {
   font-size: 1.5rem;
   margin: 0.5rem;
- }
- input{
-   width: 100%;
-   margin: 0.5rem 0rem;
- }
+}
+input {
+  width: 100%;
+  margin: 0.5rem 0rem;
+}
 
- .value{
+.value {
   margin: 1rem 2rem;
- }
- select{
+}
+select {
   padding: 0.5rem;
   width: 100%;
   border: none;
   font-size: 1.2rem;
   opacity: 0.7;
- }
+}
 
- #min_max{
+#min_max {
   width: 100%;
   display: flex;
   justify-content: space-between;
   opacity: 0.8;
- }
-
+}
