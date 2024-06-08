@@ -3,10 +3,10 @@ import { CChart } from "@coreui/react-chartjs";
 import "./App.css";
 
 function App() {
-  const [homevalue, setHomeValue] = useState(1000);
+  const [homevalue, setHomeValue] = useState(3000);
   const [downPayment, setDownPayment] = useState(0);
   const [loanAmount, setLoanAmount] = useState(0);
-  const [interestRate, setInterestRate] = useState(2);
+  const [interestRate, setInterestRate] = useState(5);
   const [tenure, setTenure] = useState(5);
 
   const [monthlyPayment, setMonthlyPayment] = useState(0);
@@ -67,7 +67,7 @@ function App() {
             />
             <div id="min_max">
               <p>$ 0</p>
-              <p>$ 3000</p>
+              <p>$ {homevalue}</p>
             </div>
           </div>
           <div class="value">
@@ -85,7 +85,7 @@ function App() {
             />
             <div id="min_max">
               <p>$ 0</p>
-              <p>$ 3000</p>
+              <p>$ {homevalue}</p>
             </div>
           </div>
           <div class="value">
