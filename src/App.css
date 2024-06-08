@@ -1,14 +1,15 @@
 #app {
-  background-color: blanchedalmond;
+  background-color: rgb(68, 123, 250);
   height: 100vh;
-}
-#app #navbar {
-  padding: 1.3rem;
-  background-color: rgb(6, 125, 205);
   color: white;
 }
+#app #navbar {
+  padding: 1.3rem ;
+  background-color: rgb(4, 11, 58);
+
+}
 #app #navbar h2 {
-  margin-left: 2rem;
+  margin-left: 4rem;
 }
 #app #container {
   margin: 0.5rem;
@@ -32,6 +33,7 @@
   width: 60%;
   margin: 2rem;
   padding: 2rem;
+  filter: drop-shadow(1px 1px 20px yellow);
 }
 
 #inner-chart p {
@@ -42,10 +44,12 @@
 .price {
   font-size: 1.5rem;
   margin: 0.5rem;
+  
 }
 input {
   width: 100%;
   margin: 0.5rem 0rem;
+  filter: drop-shadow(1px 1px 5px yellow);
 }
 
 .value {
