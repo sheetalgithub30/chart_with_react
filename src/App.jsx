@@ -129,6 +129,7 @@ function App() {
           type="pie"
           data={{
             labels: ["Principle", "Interest"],
+
             datasets: [
               {
         
@@ -141,7 +142,7 @@ function App() {
             plugins: {
               legend: {
                 labels: {
-                  color: "green",
+                  color: "black",
                 },
               },
             },
